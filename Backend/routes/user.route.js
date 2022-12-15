@@ -23,8 +23,7 @@ const otpgenerator=()=>{
 // create reusable transporter object using the default SMTP transport
 
 
-const clientid="172721478034-t109jvp8re5q4c3f6puqhmodiefg6lkm.apps.googleusercontent.com"
-const client_secret='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'
+
 
 async function sendEmail(otp,email){
 try {
@@ -33,8 +32,8 @@ const transport=nodemailer.createTransport({
 service:"gmail",
 auth:{
 type:"OAuth2",
-user:"anuragupadhyay172912313@gmail.com",
-accessToken:"ya29.a0AeTM1icnbRJn38-UJ0Y4rMeQ9rarGwl4V_sWtZQZGJ-RbnTdJOqy6qUnCMKwHdkXdQbBe7zMMuycYyTXsONfY5QlsJdd9SlGLpR9ZnOxdZLGIknJU-2efhDHH60Lw6ewpiEW0WsI8O9aDS_eR6aYUXGVo2KsaCgYKAX8SARASFQHWtWOmICMcNfNZ3N-cA97JKgOP-g0163",
+user:"",
+accessToken:"",
 clientId:clientid,
 clientSecret:client_secret
 }
