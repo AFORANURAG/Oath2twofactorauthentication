@@ -1,0 +1,24 @@
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Email OTP verification</title>
+        <script defer src="../scripts/otp.js">
+        </script>
+        <link rel="stylesheet" href="../styles/otp.css">
+    </head>
+    <body>
+        <div class="container">
+            <h1>ENTER OTP</h1>
+            <div class="userInput">
+                <input class="first" type="text" id='ist' maxlength="1" onkeyup="clickEvent(this,'sec')">
+                <input class="first" type="text" id="sec" maxlength="1" onkeyup="clickEvent(this,'third')">
+                <input class="first" type="text" id="third" maxlength="1" onkeyup="clickEvent(this,'fourth')">
+                <input class="first" type="text" id="fourth" maxlength="1" onkeyup="clickEvent(this,this)">
+                
+            </div>
+            <button id="button">CONFIRM</button>
+        </div>
+    </body>
+   
+    </html>

@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Authentication page</title>
+<link rel="stylesheet" href="../styles/auth.css">
+</head>
+<script src="../scripts/auth.js" defer></script>
+<body>
+<h1 style="margin-left: 37%; margin-top: 100px;">Signup/Register Here</h1>
+<div class="container">
+    <form action="" autocomplete="on">
+
+        <label for="">Full name</label>
+        
+        <input type="text" minlength="4" required name="name" id="name">
+        <br>
+        <label for="">Email</label>
+        <input type="email" name="email" id="email" required>
+        <br>
+        <label  for="">Password</label>
+        <input minlength="8" type="password" name="password" id="password">
+        <p id="pwarn">password must include one special character like # or @ and it should have one uppercase and one lower case character</p>
+        <input type="submit">
+        </form>
+</div>
+
+
+</body>
+</html>
